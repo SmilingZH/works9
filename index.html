@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张竣</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+        }
+
+        .an {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #343434;
+            transition: .5s;
+        }
+
+        .an:hover {
+            border: 8px solid #ffffff;
+            transform: translateY(-10px);
+            box-shadow: 0 0 20px #ffffff
+        }
+
+        .an i {
+            font-size: 60px;
+            color: white;
+        }
+
+        body a {
+            text-decoration: none;
+        }
+
+        body p {
+            font-size: 30px;
+            color: black;
+            font-weight: 900;
+            margin-top: 20px;
+            margin-left: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="an">
+        <a href="more page/introduce.html"><i class="fa-solid fa-fingerprint"></i></a>
+    </div>
+    <a href="more page/introduce.html">
+        <p>点我！</p>
+    </a>
+</body>
+
+</html>

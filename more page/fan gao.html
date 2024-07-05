@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>展示设计</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .fg {
+      width: 80vh;
+      height: 340vh;
+    }
+
+    .fg-bj-a {
+      position: relative;
+      top: 20px;
+    }
+
+    .fg-bj-a .item {
+      height: 15%;
+      background-color: #ddd;
+      padding: 5px;
+      border-radius: 20px;
+      border: 1px solid #ccc;
+    }
+
+    .fg-bj-a .item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+
+    .fg-bj-b {
+      top: 40px;
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      gap: 20px;
+    }
+
+
+
+    .fg-bj-b .item {
+      height: 100%;
+      background-color: #ddd;
+      padding: 5px;
+      border-radius: 30px;
+      border: 1px solid #ccc;
+    }
+
+    .fg-bj-b .item img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 20px
+    }
+
+    .fg-bj-c {
+      top: 60px;
+      position: relative;
+      display: grid;
+      gap: 20px;
+    }
+
+    .fg-bj-c .item {
+      height: 100%;
+      background-color: #ddd;
+      padding: 5px;
+      border-radius: 20px;
+      border: 1px solid #ccc;
+    }
+
+    .fg-bj-c .item img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 20px
+    }
+
+    @media screen and (max-width: 768px) {
+      .fg {
+        width: 80%;
+        height: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 头部 -->
+  <header class="tb">
+
+    <div class="zhong">
+      <ul>
+        <li><a href="introduce.html">介绍</a></li>
+        <li><a href="works.html">作品</a></li>
+        <li><a href="contact.html">联系</a></li>
+      </ul>
+    </div>
+
+  </header>
+  <!-- 轮播图 -->
+  <div class="lb">
+    <div class="fg">
+      <div class="fg-bj-a">
+        <div class="item"><img src="../images/zuop/展示设计/主视觉.png" alt="[ 梵高 ]"></div>
+      </div>
+      <div class="fg-bj-b">
+        <div class="item"><img src="../images/zuop/展示设计/海报01.png" alt=""></div>
+        <div class="item"><img src="../images/zuop/展示设计/手机样机，海报1，花底.jpg" alt=""></div>
+        <div class="item"><img src="../images/zuop/展示设计/海报02.png" alt=""></div>
+        <div class="item"><img src="../images/zuop/展示设计/手机样机，海报2，花底.jpg" alt=""></div>
+        <div class="item"><img src="../images/zuop/展示设计/海报03.png" alt=""></div>
+        <div class="item"><img src="../images/zuop/展示设计/手机样机，海报3，花底.jpg" alt=""></div>
+        <div class="item"><img src="../images/zuop/展示设计/宣传册样机，主视觉.jpg" alt=""></div>
+      </div>
+      <div class="fg-bj-c">
+        <div class="item">
+          <video src="../images/zuop/展示设计/演示视频.mp4" controls="controls" width="100%" height="100%"></video>
+        </div>
+      </div>
+      <span style="display: block; height: 80px;width: 20px;"></span>
+    </div>
+  </div>
+  <!-- 底部栏 -->
+  <footer class="tb-d">
+    <div class="zhong-d">
+      <ul>
+        <li>
+          <a href="introduce.html">
+            <i class="fa-solid fa-user"></i></a>
+        </li>
+        <li>
+          <a href="works.html">
+            <i class="fa-brands fa-creative-commons-nd"></i></a>
+        </li>
+        <li>
+          <a href="contact.html">
+            <i class="fa-solid fa-address-book"></i></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="../js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+.sjgl {
+    display: flex;
+    flex-wrap: wrap;
+    width: 110vh;
+    height: 32.5vh;
+    position: relative;
+    margin: 0 auto;
+    top: -20vh;
+    transition: .5s;
+}
+
+.sjgl-a {
+    width: 65%;
+    height: 100%;
+    float: left;
+}
+
+.sjgl-b {
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin-left: 40px;
+}
+
+.sjgl-c {
+    width: 65%;
+    height: 100%;
+    float: left;
+    margin-top: 40px;
+}
+
+.sjgl-d {
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.sjgl-a,
+.sjgl-b,
+.sjgl-c,
+.sjgl-d {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.sjgl-a img,
+.sjgl-b img,
+.sjgl-c img,
+.sjgl-d img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: center;
+}
+
+@media (max-width: 1200px) {
+    .sjgl {
+        width: 70vh;
+        height: 28vh;
+        position: relative;
+        margin: 0 auto;
+        top: -20vh;
+    }
+
+    .sjgl-b {
+        margin-left: 30px;
+    }
+
+    .sjgl-c {
+        margin-top: 30px;
+    }
+
+    .sjgl-d {
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sjgl {
+        width: 50vh;
+        height: 16vh;
+        position: relative;
+        margin: 0 auto;
+        top: -10vh;
+    }
+
+    .sjgl-b {
+        margin-left: 15px;
+    }
+
+    .sjgl-c {
+        margin-top: 50px;
+    }
+
+    .sjgl-d {
+        margin-left: 15px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 550px) {
+    .sjgl {
+        width: 30vh;
+        height: 12vh;
+        position: relative;
+        margin: 0 auto;
+        top: -10vh;
+    }
+
+    .sjgl-b {
+        margin-left: 10px;
+    }
+
+    .sjgl-c {
+        margin-top: 50px;
+    }
+
+    .sjgl-d {
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+}
